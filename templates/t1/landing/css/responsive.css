@@ -1,0 +1,514 @@
+@media(max-width:991px) {
+
+    .mobile-content-hide,
+    .account-icon,
+    .game-line::after,
+    .gl-one,
+    .gl-two {
+        display: none;
+    }
+
+    .gl-one,
+    .gl-two {
+        animation: none;
+    }
+
+    .nav-bg .menu-icon i {
+        margin-right: 15px;
+    }
+
+    .responsive-nav {
+        display: block;
+        top: 93% !important;
+    }
+
+    .responsive-nav li {
+        margin: 0 10px;
+    }
+
+    .index3 #banner {
+        -webkit-animation: none;
+        animation: none;
+    }
+}
+
+@media(max-width:575px) {
+    h2 span {
+        font-size: 38px;
+        letter-spacing: 20px;
+    }
+
+    .banner-arrow,
+    .follow-us,
+    #banner .vid-btn i,
+    .video-txt-overlay,
+    .join-img img,
+    .join-txt p {
+        display: none;
+    }
+
+    #banner {
+        padding: 0 0 20px;
+        text-align: center;
+    }
+
+    .banner-txt h3 {
+        font-size: 65px;
+        margin-top: 0;
+    }
+
+    .banner-txt p {
+        padding: 30px 0 30px 0;
+    }
+
+    .banner-img img {
+        top: 355px;
+        right: 0;
+    }
+
+    .banner-img::after {
+        top: 460px;
+        left: 50%;
+        width: 260px;
+        height: 260px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .banner-img::before {
+        display: none;
+    }
+
+    .game-item img {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .game-box {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 55px;
+    }
+
+    .heading h3::before {
+        left: 50%;
+        border: 2px solid #e50914;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .heading h3 {
+        font-size: 85px;
+        text-align: center;
+    }
+
+    .about-pt {
+        padding-top: 50px;
+    }
+
+    .about-txt {
+        padding-left: 0;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .about-txt h3 {
+        font-size: 27px;
+        padding: 10px 0 25px;
+        line-height: 45px;
+    }
+
+    .about-txt p {
+        padding-right: 0;
+    }
+
+    .vs-txt h3 {
+        padding-bottom: 23px;
+    }
+
+    #watch {
+        padding: 20px 0;
+    }
+
+    .video-overlay a i {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+    }
+
+    #watch {
+        padding: 0;
+    }
+
+    .join-bg {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .join-txt h3 {
+        font-size: 29px;
+        padding: 9px 0 40px;
+    }
+
+    .join-txt span {
+        font-size: 12px;
+    }
+
+    #footer {
+        padding: 60px 0;
+    }
+
+    .footer-logo p {
+        padding-right: 0;
+    }
+
+    .footer-menu h3 {
+        margin-top: 30px;
+    }
+
+    .copy-right-txt p {
+        font-size: 18px;
+    }
+
+    .copy-right-txt {
+        text-align: left !important;
+        padding-top: 5px;
+
+    }
+
+    #copy_right::after {
+        width: 100%;
+    }
+
+    .inner-page .checkout-box {
+        padding: 40px 30px;
+    }
+
+    #topDownloads, #lastUploaded {
+      padding: 0;
+    }
+}
+
+@media(min-width:375px) and (max-width:575px) {
+    #banner {
+        padding: 10px 0 20px;
+    }
+
+    .banner-img img {
+        top: 335px;
+        right: 0;
+    }
+
+    .about-txt h3 {
+        font-size: 31px;
+    }
+
+  #topDownloads,
+  #lastUploaded {
+    padding: 0;
+  }
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .custom-menubar .menu-link {
+        font-size: 32px;
+    }
+
+    .banner-arrow,
+    .follow-us,
+    .vid-btn i,
+    .landscape-hide,
+    .video-txt-overlay,
+    .join-img img {
+        display: none;
+    }
+
+    .landscape-m-auto {
+        margin: 0 auto;
+    }
+
+    .banner-img img {
+        top: 410px;
+        right: 0;
+    }
+
+    #banner {
+        padding: 20px 0 20px;
+    }
+
+    .banner-txt p {
+        padding: 30px 20px 40px 20px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .banner-img::after {
+        top: 535px;
+        left: 50%;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .banner-img::before {
+        top: 510px;
+        left: 35px;
+    }
+
+    .banner-txt p {
+        padding: 30px 20px 40px 20px;
+    }
+
+    .game-box {
+        margin-top: 60px;
+        background: #191919;
+        padding: 40px;
+        margin-bottom: 50px;
+    }
+
+    .game-box p {
+        padding-right: 55px;
+    }
+
+    .about-txt {
+        padding-left: 0;
+        margin-top: 35px;
+    }
+
+    .about-txt h3 {
+        font-size: 32px;
+    }
+
+    .counter-item {
+        margin-top: 30px;
+    }
+
+    #watch {
+        padding: 20px 0 0;
+    }
+
+    .video-overlay a i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .join-bg {
+        padding: 70px 45px;
+    }
+
+    .join-txt h3 {
+        font-size: 32px;
+    }
+
+    .subscribe-txt {
+        text-align: center;
+    }
+
+    #subscribe {
+        padding: 60px 0 115px;
+    }
+
+    .footer-menu h3 {
+        margin-top: 40px;
+    }
+
+    #copy_right::after {
+        width: 100%;
+    }
+
+  #topDownloads,
+  #lastUploaded {
+    padding: 0;
+  }
+}
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+    .banner-arrow,
+    .vid-btn i,
+    .follow-us,
+    .tablet-hide,
+    .join-img img {
+        display: none;
+    }
+
+    .tab-m-auto {
+        margin: 0 auto;
+    }
+
+    #banner {
+        padding: 30px 0 30px;
+    }
+
+    .banner-txt p {
+        padding: 30px 90px 40px 90px;
+    }
+
+    .banner-img img {
+        top: 415px;
+        right: 0;
+    }
+
+    .banner-img::after {
+        top: 560px;
+        left: 50%;
+        width: 350px;
+        height: 350px;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+
+    .banner-img::before {
+        top: 530px;
+        left: 25px;
+    }
+
+    .banner-item {
+        text-align: center;
+    }
+
+    .game-box {
+        margin-top: 60px;
+        background: #191919;
+        padding: 50px 40px;
+        margin-bottom: 50px;
+    }
+
+    .game-box p {
+        padding-right: 65px;
+    }
+
+    .game-item img {
+        display: inline-block;
+        width: 100%;
+    }
+
+    #about {
+        padding: 50px 0;
+    }
+
+    .about-txt {
+        margin-top: 50px;
+    }
+
+    .counter-item {
+        margin-top: 30px;
+    }
+
+    #watch {
+        padding: 30px 0;
+    }
+
+    .video-txt-overlay {
+        bottom: -20px;
+        left: 10px;
+    }
+
+    .player-item img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+    }
+
+    .player-info {
+        opacity: 1;
+    }
+
+    .player-txt {
+        text-align: center;
+    }
+
+    .player-txt h3 {
+        padding: 5px 90px 15px 90px;
+    }
+
+    .join-txt p {
+        padding-right: 99px;
+    }
+
+    #join {
+        padding: 20px 0;
+    }
+
+    .join-bg {
+        margin: 20px 0 0;
+    }
+
+    .footer-menu h3 {
+        margin-top: 45px;
+    }
+
+    #copy_right::after {
+        width: 100%;
+        height: 2px;
+    }
+
+  #topDownloads,
+  #lastUploaded {
+    padding: 0;
+  }
+}
+
+@media(min-width:992px) and (max-width:1199px) {
+    .custom-menubar .menu-link {
+        font-size: 42px;
+    }
+
+    .custom-menubar ul li {
+        margin: 0 25px;
+    }
+
+    #banner {
+        padding: 20px 0 80px;
+    }
+
+    .banner-txt h3 {
+        font-size: 87px;
+    }
+
+    .banner-img::after {
+        left: 85px;
+    }
+
+    .banner-img::before {
+        top: -30px;
+        left: 85px;
+    }
+
+    .follow-us {
+        position: absolute;
+        left: -95px;
+        z-index: 11;
+    }
+
+    .vid-btn i {
+        bottom: 35px;
+    }
+
+    .about-txt h3 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+
+    .match-text h3 {
+        font-size: 21px;
+    }
+
+    .join-txt h3 {
+        font-size: 33px;
+    }
+
+    #copy_right::after {
+        width: 100%;
+    }
+}
